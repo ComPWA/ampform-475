@@ -13,6 +13,7 @@ To contribute to this repository, all you need to install is [`uv`](https://docs
     --no-dev \
     jupyter lite build \
       --contents docs/Dp-to-pip-pip-pim.ipynb \
+      --contents docs/Dp-to-pip-pip-pim-fixed.ipynb \
       --output-dir lite
   ```
 - Run all notebooks

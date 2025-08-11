@@ -25,6 +25,7 @@ jobs:
             --no-dev \
             jupyter lite build \
               --contents docs/Dp-to-pip-pip-pim.ipynb \
+              --contents docs/Dp-to-pip-pip-pim-fixed.ipynb \
               --output-dir lite
       - uses: actions/upload-pages-artifact@v3
         with:
